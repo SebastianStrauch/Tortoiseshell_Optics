@@ -150,6 +150,9 @@ nav ul a{
   margin-right: 1rem;
 }
 
+#mobile{
+  display: none;
+}
 
 @media only screen and (max-width: 1024px){
   .container{
@@ -182,8 +185,107 @@ nav ul a{
 
 }
 
+@media only screen and (max-width: 700px){
+  #at700px{
+    display: none;
+  }
+
+}
+
+
 @media only screen and (max-width: 470px){
 
+  #mobile{
+    display: initial;
+  }
 
+  #screen{
+    display: none;
+  }
+
+  .banner_image{
+    height: 17rem;
+    background-position: 20%
+  }
+
+  .banner_subline{
+    display: inline-block;
+    margin-top: 9rem;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+  }
+
+  .banner_subline h1{
+    font-size: 1rem;
+    line-height: 1.2;
+    text-align: center;
+    padding: 1rem 0;
+    margin: 0;
+  }
+
+  .service_items{
+    flex-direction: column;
+    align-items: center;
+    margin: 3.77rem;
+
+  }
+
+  .item{
+    margin-top: 0;
+    margin-bottom: 1.54rem;
+    height: 7rem;
+  }
+
+  .item_description{
+    font-size: 0.77rem;
+
+  }
+
+  #item02{
+    height: 5.5rem;
+  }
+
+  #item03{
+    height: 5.5rem;
+  }
+
+  .philosophy_appointments{
+    flex-direction: column;
+  }
+
+  .pa_item{
+    width: 100%;
+  }
+
+  .pa_title{
+    width: 100%;
+    text-align: center;
+  }
+
+  .pa_text{
+    margin-top: 1rem;
+    margin-bottom: 4rem;
+    font-size: 0.77rem;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+
+  #footer_mobile{
+    display: none;
+  }
+
+
+  .footer img{
+    margin: 0 auto;
+  }
+
+  .footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 
 }
