@@ -79,3 +79,33 @@ nav ul a{
   padding: 1.5rem 5rem;
 
 }
+
+.service_items{
+  display: flex;
+  justify-content: center;
+
+}
+
+.item{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  height: 8rem;
+  width: 5rem;
+  margin: 3rem;
+}
+
+#paper_icon{
+  width: 3.5rem;
+}
+
+.item img{
+  width: 5rem;
+}
+
+.item_description{
+  line-height: 1.4;
+
+}
