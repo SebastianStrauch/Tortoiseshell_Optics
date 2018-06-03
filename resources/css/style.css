@@ -109,3 +109,29 @@ nav ul a{
   line-height: 1.4;
 
 }
+
+.philosophy_appointments{
+  display: flex;
+  justify-content: center;
+}
+
+.pa_item{
+  width: 35%;
+  margin-right: 5%;
+
+}
+
+.pa_title{
+  width: 10rem;
+  background-color: cadetblue;
+  font-family: Helvetica;
+  font-weight: bold;
+  font-size: 1rem;
+  color: white;
+  padding: 0.5rem 1.25rem;
+}
+
+.pa_text{
+  margin-top: 1rem;
+  margin-bottom: 5rem;
+}
