@@ -69,6 +69,7 @@ nav ul a{
   display: inline-block;
   margin-top: 10rem;
   margin-right: -2rem;
+  padding: 1.5rem 5rem;
 }
 
 .banner_subline h1{
@@ -76,7 +77,7 @@ nav ul a{
   font-weight: bold;
   font-size: 2rem;
   line-height: 1.2;
-  padding: 1.5rem 5rem;
+  margin: 1.5rem 0;
 
 }
 
@@ -147,4 +148,42 @@ nav ul a{
   height: 1.5rem;
   margin-left: 2rem;
   margin-right: 1rem;
+}
+
+
+@media only screen and (max-width: 1024px){
+  .container{
+    width: 100%;
+  }
+
+  .banner_headline{
+    margin-top: 0;
+  }
+
+  .banner_subline{
+    display: inline-block;
+    margin-top: 5rem;
+    margin-right: 2rem;
+    padding: 0.75rem 4rem;
+  }
+
+  .banner_subline h1{
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 1.33rem;
+    line-height: 1.2;
+    margin: 0.75rem 0;
+
+  }
+
+  .banner_image{
+    height: 22rem;
+  }
+
+}
+
+@media only screen and (max-width: 470px){
+
+
+
 }
