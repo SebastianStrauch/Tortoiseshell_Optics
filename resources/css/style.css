@@ -135,3 +135,16 @@ nav ul a{
   margin-top: 1rem;
   margin-bottom: 5rem;
 }
+
+.footer{
+  background-color: azure;
+  display: flex;
+  padding: 4rem 2rem;
+  align-items: center;
+}
+
+.footer img{
+  height: 1.5rem;
+  margin-left: 2rem;
+  margin-right: 1rem;
+}
